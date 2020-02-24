@@ -2,6 +2,11 @@
 
 class Book
 
+  # Replaces the getter and setter methods
+  # attr_accessor :author, page_count, :genre
+  # attr_reader :title 
+
+
   def initialize(title)
     @title = title
   end
